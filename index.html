@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego Snake</title>
+    <audio id="puntoAudio" src="sound/exito.mp3"></audio>
+    <audio id="finAudio" src="sound/error.mp3"></audio>
+</head>
+<body>
+    <div class="detalles-juego">
+        <span class="puntuacion">Puntuacion: 0</span>
+        <span class="mejor-puntuacion">Mejor puntuacion: 0</span>
+    </div>
+    <div class="contenedor-juego">
+        <div class="tablero-juego"></div>
+        
+        <div class="controles">
+            <i data-tecla="ArrowLeft" class="bi bi-arrow-left"></i>
+            <i data-tecla="ArrowUp" class="bi bi-arrow-up"></i>
+            <i data-tecla="ArrowRight" class="bi bi-arrow-right"></i>
+            <i data-tecla="ArrowDown" class="bi bi-arrow-down"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
